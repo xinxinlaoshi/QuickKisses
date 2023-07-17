@@ -3,8 +3,8 @@
 * [Introduction](#introduction)
 * [Setup](#setup)
 * [Corpus file](#corpus-file)
-* [Experiment 1: semantic projection](#experiment-1:-semantic-projection)
-* [Experiment 2: semantic similarity](#experiment-2:-semantic-similarity)
+* [Experiment 1](#experiment-1)
+* [Experiment 2](#experiment-2)
 
 ## Introduction
 This project aims to carry out the two experiments in the paper *On Quick Kisses and How to Make Them Count:
@@ -19,7 +19,8 @@ To successfully replicate the experiments, install the following libraries from 
 ## Corpus file
 This project uses the British National Corpus file in XML format (BNC Consortium, 2007, *British National Corpus*, *XML edition*, Oxford Text Archive, http://hdl.handle.net/20.500.12024/2554.)
 
-## Experiment 1: semantic projection
+## Experiment 1
+#### This experiment uses semantic projection to reproduce the results of Experiment 1-2 in Wittenberg & Levy (2017)'s study
 `feature_words_extraction.py`: run this file to extract the sentences where the feature words occur in natural contexts from the British National Corpus
 
 `feature_vector_aggregation.py`: run this file to aggregate the vectors of the feature words into a 1-dimensional subspace
@@ -116,7 +117,8 @@ durative mass
 | thanks | 0.464643 | durative mass |
 
 
-## Experiment 2: semantic similarity
+## Experiment 2
+#### This experiment measures the semantic similarity of target events in different contexts to reproduce the results of Experiment 4 in Wittenberg & Levy (2017)'s study
 `semantic_similarity.py`: sample pairs of target events in natural contexts in transitive constructions / ditransitive constructions / both transitive and ditransitive constructions
 
 ### Code example
