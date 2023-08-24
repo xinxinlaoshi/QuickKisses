@@ -1,0 +1,19 @@
+,event,event.category,spearman,cosine
+1,address,durative count,0.281485465,0.371827054
+2,advice,durative mass,0.38664162,0.481930342
+3,assurance,durative mass,0.38328313,0.451241217
+4,check,durative count,0.365992203,0.446489591
+5,cuddle,punctive count,0.579051957,0.616807204
+6,encouragement,durative mass,0.356161711,0.471868195
+7,hug,punctive count,0.485946591,0.53824678
+8,kick,punctive count,0.333703802,0.401410975
+9,kiss,punctive count,0.459180883,0.516092874
+10,lecture,durative count,0.491689672,0.56569738
+11,presentation,durative count,0.323260347,0.425388279
+12,recognition,durative mass,0.324217874,0.454351193
+13,shake,punctive count,0.331841203,0.400249618
+14,speech,durative count,0.347903453,0.425850438
+15,support,durative mass,0.379554762,0.476568311
+16,talk,durative count,0.395998588,0.47388633
+17,thanks,durative mass,0.443277649,0.463943609
+18,wink,punctive count,0.508173714,0.561589388
