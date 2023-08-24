@@ -16,6 +16,8 @@ To successfully replicate the experiments, install the following libraries from 
 `pip install minicons`  
 `pip install stanza`
 
+Decompress the target sentences zip folder under the main directory and decompress the feature words zip folder under the directory of Experiment_1
+
 ## Corpus file
 This project uses the British National Corpus file in XML format (BNC Consortium, 2007, *British National Corpus*, *XML edition*, Oxford Text Archive, http://hdl.handle.net/20.500.12024/2554.)
 
