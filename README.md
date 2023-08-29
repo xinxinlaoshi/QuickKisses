@@ -34,7 +34,7 @@ tf = feature_vector('bert-base-uncased')
 tf.dict = tf.get_feature_words('.\\feature_words') 
 ```
 
-if run the projection in setting (i)  
+if we run the projection in setting (i)  
 ```
 # select the words used to represent the concept 'long'
 long_list = ['long', 'long-term', 'ages', 'years', 'centuries', 'lengthy', 'decades']
@@ -50,6 +50,12 @@ tensor([ 3.1756e+00,  2.0101e+00,  3.0391e+00, ...,  -1.7005e+00, -5.6126e-01,  
 '''
 ```
 `semantic_projection`: run this file to project the target events onto the aggregated feature vector
+
+if we want to run the projection in setting (ii), we only need to modify the content of `long_list` and `short_list`:
+```
+long_list = ['long','long-term','years']
+short_list = ['immediate','minute','moment']
+```
 
 ### Code example
 import the target events
